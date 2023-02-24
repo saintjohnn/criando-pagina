@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+-> PALETA DE CORES
+   cor 1: #C23232
+   cor 2: #101F34
+   cor 3: #F5D3D4
+   cor 4: #EBCFB0
+   cor 5: #BB1334
+   cor 6: #080A07
+   cor 7: #00FFA0
+   cor 8: #3B5264
+*/
+
+@font-face {
+    font-family: 'Lagann';
+    src: url('fontes/futura-display.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lagann', Times, serif;
+}
