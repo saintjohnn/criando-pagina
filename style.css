@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
-/*
--> PALETA DE CORES
-   cor 1: #C23232
-   cor 2: #101F34
-   cor 3: #F5D3D4
-   cor 4: #EBCFB0
-   cor 5: #BB1334
-   cor 6: #080A07
-   cor 7: #00FFA0
-   cor 8: #3B5264
-*/
+
+:root {
+   --cor1: #C23232;
+   --cor2: #101F34;
+   --cor3: #F5D3D4;
+   --cor4: #EBCFB0;
+   --cor5: #BB1334;
+   --cor6: #080A07;
+   --cor7: #00FFA0;
+   --cor8: #3B5264;
+}
 
 @font-face {
     font-family: 'Lagann';
@@ -23,6 +23,37 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: 'Lagann', Times, serif;
+    height: 100vh;
+    background-image: url('imagens/ttgl.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1, p {
+    color: #BB1334;
+    text-shadow: 4px 4px 4px black;
+}
+
+/*nav {
+    text-align: center;
+}*/
+
+/*nav > a {
+    text-decoration: none;
+    color:#00FFA0 ;
+}*/
+
+div > .cor-das-letras {
+    margin-top: 80px;
+    color: black;
+    text-align: justify;
+    text-align: center;
+    text-shadow: 2px 3px 3px #00FFA0;
 }
