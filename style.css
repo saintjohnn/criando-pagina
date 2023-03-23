@@ -29,11 +29,7 @@ body {
 .container > nav {
     display: flex;
     gap: 20px;
-<<<<<<< HEAD
     margin-right:auto ;
-=======
-    margin-right: auto;
->>>>>>> e95937b5090c3e88d97062a76601d953b7398f53
 }
 
 .container > nav > a {
