@@ -8,6 +8,7 @@
 
 body {
     background-color: whitesmoke;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -61,14 +62,15 @@ div > h1 {
     color: rgb(8, 8, 8);
 }
 
-body > footer {
+footer {
     background-color: #9ff1a6;
     text-align: center;
-    margin-top: 1000px;
+    position: absolute;
+    bottom: 0;
+
 }
 
 footer > p > a {
-
     text-decoration: none;
     font-weight: bolder;
     color: black;
