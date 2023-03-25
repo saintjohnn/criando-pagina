@@ -19,11 +19,10 @@ body {
     justify-content: center;
 }
 
-.container > h1{
+.container > .logo {
    margin-left: 30px;
    margin-right: auto; 
-   width: 100px;
-
+   font-weight: bolder;
 }
 
 .container > nav {
@@ -39,6 +38,38 @@ body {
 }
 
 .container > nav > a:hover {
+    text-decoration: underline;
+}
+
+div {
+    background-color: #ccf0cf;
+}
+
+div > .texto {
+    max-width: 500px;
+    text-align: justify;
+    margin: 10px;
+    background-color: #ccf0cf;
+}
+
+div > h1 {
+    padding: 25px;
+    color: rgb(8, 8, 8);
+    background-color: #9ff1a6;
+}
+
+footer {
+    background-color: #9ff1a6;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+footer > p > a:hover {
     text-decoration: underline;
 }
 
