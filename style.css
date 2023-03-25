@@ -8,6 +8,7 @@
 
 body {
     background-color: whitesmoke;
+    height: 100vh;
 }
 
 .container {
@@ -60,12 +61,14 @@ div > h1 {
     color: rgb(8, 8, 8);
 }
 
-footer {
+body > footer {
     background-color: #9ff1a6;
     text-align: center;
+    margin-top: 1000px;
 }
 
 footer > p > a {
+
     text-decoration: none;
     font-weight: bolder;
     color: black;
