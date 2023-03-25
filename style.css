@@ -81,7 +81,15 @@ footer > p > a:hover {
     .container {
         display: flex;
         background-color: #b7f4f8;
-        height: 100px;
         flex-direction: column;
+    }
+
+    div > h1 {
+       text-align: center; 
+    }
+
+    div > .texto {
+        text-align: center;
+        text-align: justify;
     }
 }
