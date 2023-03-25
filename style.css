@@ -42,19 +42,21 @@ body {
 }
 
 div {
+    display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
+    align-items: center;
 }
 
 div > .texto {
+    display: flex;
     text-align: justify;
     max-width: 500px;
     margin: 10px;
     background-color: whitesmoke;
-    display: inline-block;
 }
 
 div > h1 {
-    text-align: center;
     padding: 25px;
     color: rgb(8, 8, 8);
 }
