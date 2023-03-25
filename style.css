@@ -42,14 +42,14 @@ body {
 }
 
 div {
-    background-color: #ccf0cf;
+    background-color: whitesmoke;
 }
 
 div > .texto {
     max-width: 500px;
     text-align: justify;
     margin: 10px;
-    background-color: #ccf0cf;
+    background-color: whitesmoke;
 }
 
 div > h1 {
@@ -80,8 +80,15 @@ footer > p > a:hover {
 
     .container {
         display: flex;
-        background-color: #b7f4f8;
         flex-direction: column;
+    }
+    
+    .container > .logo {
+        margin: auto;
+    }
+
+    .container > nav {
+        margin: auto;
     }
 
     div > h1 {
