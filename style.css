@@ -60,6 +60,7 @@ div > .texto {
 }
 
 div > h1 {
+    margin-right: auto;
     padding: 25px;
     color: rgb(8, 8, 8);
 }
